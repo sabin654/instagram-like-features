@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilory';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(228, 232, 232);
+}
+.co{
+    background-image:url("https://static.cdninstagram.com/rsrc.php/v-1/yh/r/IS7e616CiR2.png");
+    position: absolute;
+    top:60px;
+    left: 38%;
+    height: 100px;
+    width: 340px;
+    background-position: top;
+    
+    
+}
+
+
+.container{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+.container i{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 70px;
+    color: white;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform ease 0.8s;
+    cursor: pointer;
+}
+.btn{
+    
+    position: absolute;
+    top: 76%;
+    left: 38%;
+    margin-left:5px;
+    
+}
+.btn i{
+   font-size: 25px;
+   color: rgb(0, 0, 0);
+   cursor: pointer;
+  
+}
